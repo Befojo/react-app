@@ -1,3 +1,3 @@
 # react-app
-My small react-native app
+My small testing react-native app with documentation about React Native.
 
