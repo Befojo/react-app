@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ScrollView } from 'react-native';
-import BookDetail from './BookDetail';
-import books from './books.json';
+import BookDetail from '../BookDetail';
+import books from '../../resources/books.json';
 
 class BookList extends Component {
   state = { books: [] };
@@ -12,7 +12,7 @@ class BookList extends Component {
 
   renderBooks() {
     return this.state.books.map(book =>
-      <BookDetail key={book.title} book={book} />
+      <BookDetail navigation={this.props.navigation} key={book.title} book={book} />
     );
   }
 
