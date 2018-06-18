@@ -10,7 +10,7 @@ class HomeScreen extends Component {
   render() {
     return (
       <View style={{ flex: 1 }}>
-        <BooksList navigation={this.props.navigation}/>
+        <BooksList navigation={this.props.navigation} />
       </View>
     );
   }

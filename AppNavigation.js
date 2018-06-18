@@ -5,7 +5,7 @@ import BookDetailsScreen from './src/screens/BookDetailsScreen';
 
 const AppNavigation = createStackNavigator({
   HomeScreen: HomeScreen,
-  BookDetailsScreen:  BookDetailsScreen,
+  BookDetailsScreen: BookDetailsScreen,
 }, {
   initialRouteName: 'HomeScreen',
   navigationOptions: {

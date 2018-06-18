@@ -23,7 +23,8 @@ class BookDetail extends Component {
         </BookSection>
         <BookSection>
           <Button
-            onPress={ () => this.props.navigation.navigate('BookDetailsScreen') } />
+            onPress={() => this.props.navigation.navigate('BookDetailsScreen')} 
+          />
         </BookSection>
       </Book>
     );

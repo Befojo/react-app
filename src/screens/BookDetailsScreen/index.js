@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
+import SingleBook from '../../components/SingleBook';
 
 class BookDetailsScreen extends Component {
   static navigationOptions = {
@@ -9,9 +10,10 @@ class BookDetailsScreen extends Component {
   render() {
     return (
       <View>
+        <SingleBook book={onPress} />
       </View>
-    )
-  };
+    );
+  }
 }
 
 export default BookDetailsScreen;
