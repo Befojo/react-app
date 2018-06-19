@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/Blackmagic/ReactNativeProjects/react-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/Blackmagic/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c8e2d1928d6d9f48e49d1dbc3f41600d/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/Blackmagic/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/eb429167b6f497ab48d634c08cb4254f/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Blackmagic/ReactNativeProjects/react-app/android/app/build/intermediates/res/merged/debug/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/Blackmagic/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c8e2d1928d6d9f48e49d1dbc3f41600d/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/Blackmagic/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/eb429167b6f497ab48d634c08cb4254f/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -22,50 +22,13 @@ class BookDetail extends Component {
           <Image style={styles.imageStyle} source={{ uri: this.props.book.image }} />
         </BookSection>
         <BookSection>
-          <Button
-            onPress={() => this.props.navigation.navigate('BookDetailsScreen')} 
-          />
+          <Button onPress={
+            () => this.props.navigation.navigate('BookDetailsScreen', { book: this.props.book })  } />
         </BookSection>
       </Book>
     );
   }
 
 }
-
-// const BookDetail = ({ book }) => {
-//   const { headerContentStyle, headerTextStyle, imageStyle } = style;
-//   const { title, author, image } = book;
-//   return (
-//     <Book>
-//       <BookSection>
-//         <View style={headerContentStyle}>
-//           <Text style={headerTextStyle}>{title}</Text>
-//           <Text>{author}</Text>
-//         </View>
-//       </BookSection>
-//       <BookSection>
-//         <Image style={imageStyle} source={{ uri: image }} />
-//       </BookSection>
-//       <BookSection>
-//         <Button onPress={this.props.navigation.navigate('BookDetailsScreen')} />
-//       </BookSection>
-//     </Book>
-//   );
-// };
-//
-// const style = {
-//   headerContentStyle: {
-//     flexDirection: 'column',
-//     justifyContent: 'space-around'
-//   },
-//   headerTextStyle: {
-//     fontSize: 18,
-//     fontWeight: '600'
-//   },
-//   imageStyle: {
-//     height: 300,
-//     flex: 1,
-//   }
-// };
 
 export default BookDetail;
